@@ -1,0 +1,69 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 0;
+  width: 100%;
+  z-index: 999;
+}
+.header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .logo {
+  font-size: 2.5rem;
+  color: #10221b;
+  font-weight: bolder;
+}
+.header .header-content .logo i {
+  color: green;
+  font-size: 22px;
+  padding-right: 5px;
+}
+.header .header-content .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .right .navbar #nav-close {
+  display: none;
+}
+.header .header-content .right .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .right .navbar ul .link {
+  margin: 2rem;
+  color: #10221b;
+  font-size: 1.5rem;
+}
+.header .header-content .right .navbar ul .link:hover {
+  cursor: pointer;
+  color: #219150;
+}
+.header .header-content .right .icons #menu-btn {
+  display: none;
+}
+.header .header-content .right .icons a {
+  color: #10221b;
+  font-size: 1.7rem;
+  padding-left: 10px;
+}
+.header .header-content .right .icons a:hover {
+  cursor: pointer;
+  color: #219150;
+}
+.header .header-content .right .icons #search-btn {
+  color: #10221b;
+  font-size: 1.7rem;
+  padding-left: 10px;
+}
+.header .header-content .right .icons #search-btn:hover {
+  cursor: pointer;
+  color: #219150;
+}
+
+/*# sourceMappingURL=header.css.map */

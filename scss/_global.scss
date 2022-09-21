@@ -1,0 +1,101 @@
+@import "veriables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ul,li{
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+section{
+  padding: 5rem 9%
+}
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+
+  &::-webkit-scrollbar{
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-track{
+    background: $white;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    background: $black;
+  }
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: $border;
+  color: $black;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  &:hover{
+    background: $black;
+    color: $white;
+  }
+}
+
+p{
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+
+img{
+  object-fit: cover;
+}
+
+.title{
+  color: $black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color: $black;
+}
+
+//.title{
+//  padding-bottom: 30px;
+//}
+
+
+
+
+
+
+
+
+
+

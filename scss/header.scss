@@ -1,0 +1,161 @@
+@import "veriables";
+
+ .header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 2rem 2%;
+   width: 100%;
+   z-index: 1000;
+
+   &.active{
+     background:$white;
+     box-shadow: $box-shadow;
+   }
+
+   .header-content{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+     .logo{
+       font-size: 2.5rem;
+       color: $black;
+       font-weight: bolder;
+
+       i {
+         color: green;
+         font-size: 22px;
+         padding-right: 5px;
+       }
+     }
+     .right {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+       .navbar{
+         #nav-close {
+           display: none;
+         }
+         ul{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+
+           .link{
+             margin: 2rem;
+             color: $black;
+             font-size: 1.5rem;
+             &:hover{
+               cursor: pointer;
+               color: $green;
+             }
+           }
+         }
+       }
+       .icons{
+         #menu-btn{
+           display: none;
+         }
+         a{
+           color: $black;
+           font-size: 1.7rem;
+           padding-left: 10px;
+           &:hover{
+             cursor: pointer;
+             color: $green;
+           }
+         }
+         #search-btn{
+           color: $black;
+           font-size: 1.7rem;
+           padding-left: 10px;
+           &:hover{
+             cursor: pointer;
+             color: $green;
+           }
+         }
+       }
+     }
+   }
+ }
+
+
+
+//.search-form{
+//  position: fixed;
+//  top: 0;
+//  left: 0;
+//  height: 100%;
+//  width: 100%;
+//  background: rgba(0,0,0, .8);
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  z-index: 10000;
+//  transform: translateY(-110%);
+//
+//  &.active{
+//    transform: translateY(0%);
+//  }
+//
+//  #close-search{
+//    position: absolute;
+//    top: 2rem;
+//    right: 1.5rem;
+//    cursor: pointer;
+//    color: $white;
+//    font-size: 6rem;
+//
+//    &:hover{
+//      color: $green;
+//    }
+//  }
+//
+//  form{
+//    width: 70rem;
+//    margin: 0 2rem;
+//    padding-bottom: 2rem;
+//    border-bottom: .2rem solid $white;
+//    display: flex;
+//    align-items: center;
+//
+//    input{
+//      width: 100%;
+//      font-size: 2rem;
+//      color:$white ;
+//      text-transform: none;
+//      background: none;
+//      padding-right: 2rem;
+//
+//      &::placeholder{
+//        color: #aaa;
+//      }
+//    }
+//    label{
+//      font-size: 3rem;
+//      cursor: pointer;
+//      color:$white;
+//
+//      &:hover{
+//        color:$green;
+//      }
+//    }
+//  }
+//}
+//
+
+
+
+
+
+
+
+
+
+
+
+
+

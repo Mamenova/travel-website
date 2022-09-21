@@ -1,0 +1,98 @@
+@media (max-width: 576px){
+//  media header starts
+  .header{
+    .container{
+      .header-content{
+        .right{
+          .navbar{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+//  media header ends
+
+// media home starts
+  .home{
+    .box{
+      background-position: right !important;
+      .content{
+
+      }
+    }
+  }
+  // media home ends
+
+
+  //  media categories starts
+  .categories{
+    .content{
+      display: block;
+    }
+  }
+  //  media categories ends
+
+
+  //  media about starts
+  .about{
+    .content{
+      display: block;
+      .left{
+        width: 100%;
+      }
+      .right{
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
+  //  media about ends
+
+  //  media products starts
+  .products{
+    .product-slider{
+      .wrapper{
+
+          display: block;
+        padding-left: 60px;
+
+        .slide{
+          width: 80%;
+        }
+
+      }
+    }
+  }
+  //  media products ends
+
+
+  //  media reviews starts
+  .reviews{
+    .content{
+      display: block;
+    }
+  }
+  //  media reviews ends
+
+
+  //  media posts starts
+  .posts{
+    .content{
+      display: block;
+    }
+  }
+  //  media posts ends
+
+
+
+
+
+
+
+  //it is swiper icons
+  .swiper-button-next,
+  .swiper-button-prev{
+    display: none;
+  }
+}

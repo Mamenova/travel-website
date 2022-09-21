@@ -1,0 +1,83 @@
+@import "veriables";
+@import "mixins";
+
+.posts{
+  h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .content{
+    @include flex-box;
+    .block{
+      position: relative;
+      width: 300px;
+      margin: 10px;
+      img{
+        width: 100% ;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+
+      .data{
+        position: absolute;
+        display: flex;
+        background: $black;
+        padding: 8px 15px;
+        border-radius: 4px;
+        left: 25%;
+        top: 190px;
+        .calendar{
+          @include flex-box;
+          i{
+            color: $green;
+          }
+          span{
+            color: $white;
+            padding-left: 5px;
+            padding-right: 15px;
+          }
+        }
+        .user{
+          display: flex;
+          i{
+            color: $green;
+          }
+          span{
+            color: $white;
+            padding-left: 5px;
+          }
+        }
+      }
+      .info{
+        text-align: center;
+        margin-top: 30px;
+        h3{
+          color: $green;
+        }
+        p{
+          color: $black;
+          letter-spacing: 1px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

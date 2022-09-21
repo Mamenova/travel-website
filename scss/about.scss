@@ -1,0 +1,56 @@
+
+@import "veriables";
+@import "mixins";
+.about{
+  background: $light-bg;
+  .content{
+    @include flex-box();
+    .left{
+      position: relative;
+      width: 45%;
+      z-index: 999;
+
+
+      img{
+        width: 450px;
+        height: 400px;
+        z-index: 999;
+      }
+
+      &:before{
+        content: '';
+        position: absolute;
+        width: 450px;
+        height: 400px;
+        top: 20px;
+        left: 20px;
+        background: rgba(128, 128, 128, 0.23);
+        z-index: -1;
+      }
+    }
+    .right{
+      width: 45%;
+
+      .btn{
+        margin-top: 2rem;
+      }
+      h2{
+        color: $green;
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

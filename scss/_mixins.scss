@@ -1,0 +1,11 @@
+@mixin flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-box-wrap{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  text-align: center;
+}

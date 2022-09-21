@@ -1,0 +1,76 @@
+@import "veriables";
+@import "mixins";
+
+
+.products{
+  h1{
+    padding-bottom: 50px;
+  }
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .slide{
+      width: 30rem;
+      border: $border;
+      margin: 15px;
+
+      img{
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        overflow: hidden;
+        height: 30rem;
+      }
+
+      .content{
+        padding: 1rem 0;
+        text-align: center;
+
+
+        h3{
+          font-size:2rem;
+          color:$black;
+        }
+
+        .price{
+          padding: 1rem 0;
+          font-size: 2rem;
+          color: $green;
+        }
+
+        .stars i{
+          font-size: 1.7rem;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
